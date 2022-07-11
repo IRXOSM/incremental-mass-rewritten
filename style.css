@@ -4,11 +4,6 @@
     --cy: 0;
 }
 
-@font-face {
-	font-family: 'Andy Bold';
-	src: url('fonts/design.graffiti.ANDYB.ttf');
-	size-adjust: 110%;
-}
 
 @font-face {
 	font-family: 'Webdings';
@@ -16,63 +11,6 @@
 	size-adjust: 100%;
 }
 
-@font-face {
-	font-family: 'Cousine';
-	src: url('fonts/Cousine-Regular.ttf');
-}
-
-@font-face {
-	font-family: 'Flexi IBM VGA False';
-	src: url('fonts/Flexi_IBM_VGA_False.ttf');
-}
-
-@font-face {
-	font-family: 'Inconsolata';
-	src: url('fonts/Inconsolata-VariableFont_wdth\,wght.ttf');
-	size-adjust: 110%;
-}
-
-@font-face {
-	font-family: 'Lucida Handwriting';
-	src: url('fonts/qkmarisa.ttf');
-	size-adjust: 85%;
-}
-
-@font-face {
-	font-family: 'Monospace-Typewritter';
-	src: url('fonts/MonospaceTypewriter.ttf');
-	size-adjust: 85%;
-}
-
-@font-face {
-	font-family: 'MS Sans Serif';
-	src: url('fonts/ms_sans_serif.woff');
-	size-adjust: 110%;
-}
-
-@font-face {
-	font-family: 'Nova Mono';
-	src: url('fonts/NovaMono-Regular.ttf');
-	size-adjust: 85%;
-}
-
-@font-face {
-	font-family: 'Nunito';
-	src: url('fonts/Nunito-VariableFont_wght.ttf');
-	size-adjust: 90%;
-}
-
-@font-face {
-	font-family: 'Retron2000';
-	src: url('fonts/Retron2000.ttf');
-	size-adjust: 85%;
-}
-
-@font-face {
-	font-family: 'Roboto Mono';
-	src: url('fonts/RobotoMono-VariableFont_wght.ttf');
-	size-adjust: 90%;
-}
 
 * {
 	font-family: var(--font);
@@ -85,7 +23,7 @@ p {
 }
 
 body {
-    color: white;
+    color: gray;
     background-color: hsl(0, 0%, 7%);
 	overflow-x: hidden;
 	font-size: 16px;
@@ -99,9 +37,9 @@ table, tr {
 }
 
 button {
-    border: solid 2px white;
+    border: solid 2px gray;
     background-color: #171717;
-	color: white;
+	color: gray;
     font-size: 14px;
 	cursor: pointer;
 	transition-duration: 0.15s;
@@ -126,7 +64,7 @@ button {
 	transform: translate(-50%, 0);
 	width: 400px;
 	min-height: 10px;
-	border: solid 2px white;
+	border: solid 2px gray;
 	background-color: #171717;
 	padding: 7px 25px;
 	transition-duration: 0.75s;
@@ -144,7 +82,7 @@ button {
     top: 50%;
     transform: translate(-50%, -50%);
 	width: 600px; height: 400px;
-	border: solid 2px white;
+	border: solid 2px gray;
 	background-color: #171717;
 	padding: 7px 25px;
 }
@@ -239,7 +177,7 @@ button {
 		color: red;
 	}
 	33.3% {
-		color: blue;
+		color: cyan;
 	}
 	66.7% {
 		color: limegreen;
@@ -393,13 +331,13 @@ button {
 }
 
 .btn_tab.normal.choosed {
-	background-color: white;
+	background-color: black;
 	color: black;
 }
 
 .btn_tree {
 	background-color: black;
-	border: solid 2px white;
+	border: solid 2px gray;
 	margin: 15px;
 	width: 54px;
 	height: 54px;
@@ -427,7 +365,7 @@ button {
 }
 
 #final_118 {
-	color: white;
+	color: red;
 	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 	font-weight: bold;
 }
@@ -443,7 +381,7 @@ button {
 }
 
 .btn_tree.choosed {
-	transform: scale(1.25);
+	transform: scale(1.5);
 }
 
 .elements {
@@ -496,10 +434,10 @@ button {
 }
 
 #auto_qu_input {
-	color: white;
+	color: gray;
 	font-size: 20px;
 	width: 200px;
-	border: solid 2px white;
+	border: solid 2px gray;
 	background-color: #171717;
 	text-align: left;
 }
@@ -557,7 +495,7 @@ h2 {
 
 .bd:not(.locked):hover {
 	border-color: #00cea1;
-	background-color: #00363a !important;
+	background-color: #888888;
 	box-shadow: 0 0 10px #00cea1;
 }
 
