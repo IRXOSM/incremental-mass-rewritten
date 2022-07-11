@@ -11,6 +11,12 @@
 }
 
 @font-face {
+	font-family: 'Webdings';
+	src: url('fonts/webdings.ttf');
+	size-adjust: 100%;
+}
+
+@font-face {
 	font-family: 'Cousine';
 	src: url('fonts/Cousine-Regular.ttf');
 }
